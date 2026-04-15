@@ -22,7 +22,7 @@
     {"tag": "🧠 AI", "type": "selector", "outbounds": ["🇯🇵 东京 CN2 9929 CMIN2", "🇭🇰 香港 CN2 GIA", "🇺🇲 美国 ISP"]},
     {"tag": "📹 YouTube", "type": "selector", "outbounds": ["🇯🇵 东京 CN2 9929 CMIN2", "🇯🇵 东京 BGP", "🇺🇲 美国 ISP", "🇭🇰 香港 CN2 GIA", "🐸 手动选择"]},
     {"tag": "🍀 Google", "type": "selector", "outbounds": ["🇯🇵 东京 CN2 9929 CMIN2", "🇯🇵 东京 BGP", "🇺🇲 美国 ISP",  "🇭🇰 香港 CN2 GIA", "🐸 手动选择"]},
-    {"tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🇯🇵 东京 BGP", "🇯🇵 东京 CN2 9929 CMIN2", "🇺🇲 美国 ISP",  "🇭🇰 香港 CN2 GIA", "🐸 手动选择"]},
+    {"tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🇯🇵 东京 CN2 9929 CMIN2", "🇯🇵 东京 BGP", "🇺🇲 美国 ISP",  "🇭🇰 香港 CN2 GIA", "🐸 手动选择"]},
     {"tag": "📲 Telegram", "type": "selector", "outbounds": ["🇯🇵 东京 CN2 9929 CMIN2", "🇯🇵 东京 BGP", "🇺🇲 美国 ISP", "🇭🇰 香港 CN2 GIA", "🐸 手动选择"]},
     {"tag": "🎵 TikTok", "type": "selector", "outbounds": ["🇯🇵 东京 BGP", "🇭🇰 香港 CN2 GIA", "🇺🇲 美国 ISP", "🐸 手动选择"]},
     {"tag": "🎥 Netflix", "type": "selector", "outbounds": ["🇯🇵 东京 CN2 9929 CMIN2", "🇯🇵 东京 BGP", "🇭🇰 香港 CN2 GIA", "🇺🇲 美国 ISP", "🐸 手动选择"]},
