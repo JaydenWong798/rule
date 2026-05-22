@@ -71,7 +71,7 @@
       {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"},
       {
         "domain_suffix": [
-          "plex.jayden.cool"
+          "jayden.cool"
         ],
         "outbound": "direct"
       }
