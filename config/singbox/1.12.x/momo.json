@@ -30,8 +30,7 @@
       },
       {
         "query_type": [
-          "HTTPS",
-          "TYPE65"
+          "HTTPS"
         ],
         "action": "reject"
       },
