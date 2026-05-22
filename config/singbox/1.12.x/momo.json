@@ -42,10 +42,10 @@
     }
   ],
 
-  "final": "foreign",
-  "strategy": "ipv4_only",
-  "independent_cache": true
- },
+   "final": "foreign",
+   "strategy": "ipv4_only",
+   "independent_cache": true
+  },
   "outbounds": [
     {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇯🇵东京⭐𝙱𝙶𝙿", "🇭🇰香港🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇺🇸洛杉矶⭐𝙸𝚂𝙿", "🐸 手动选择", "♻️ 自动选择"]}, 
     {"tag": "🧠 AI", "type": "selector", "outbounds": ["🇯🇵东京⭐𝙱𝙶𝙿", "🇭🇰香港🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇺🇸洛杉矶⭐𝙸𝚂𝙿"]},
