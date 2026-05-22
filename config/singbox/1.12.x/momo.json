@@ -12,7 +12,6 @@
         "server": "https://alidns.com",
         "domain_resolver": "local"
       },
-      // 【防泄露核心：改用安全加密的 DoH，且强制走代理出站】
       {
         "tag": "foreign",
         "type": "https",
@@ -30,7 +29,6 @@
         "clash_mode": "global",
         "server": "foreign"
       },
-      // 【拦截有害的 HTTPS/Type65 查询，防运营商劫持】
       {
         "query_type": [
           "HTTPS",
