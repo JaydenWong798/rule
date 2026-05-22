@@ -27,7 +27,7 @@
       {
         "clash_mode": "global",
         "server": "foreign"
-      },
+      }, 
       {
         "query_type": [
           "HTTPS"
