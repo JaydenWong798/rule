@@ -40,6 +40,7 @@
     {"tag": "🎯 全球直连", "type": "direct"}
   ],
   "route": {
+    {"domain_suffix": ["jayden.cool","plex.tv"],"outbound": "🎯 全球直连"},
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"inbound": "dns-in", "action": "hijack-dns"},
@@ -65,8 +66,7 @@
       {"rule_set": "geoip-apple", "outbound": "🍏 Apple"},
       {"rule_set": "geoip-telegram", "outbound": "📲 Telegram"},
       {"rule_set": "geoip-netflix", "outbound": "🎥 Netflix"},
-      {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"},
-      {"domain_suffix": ["jayden.cool","plex.tv"],"outbound": "🎯 全球直连"}
+      {"rule_set": "geoip-cn", "outbound": "🎯 全球直连"}
     ],
     "rule_set": [
       {"tag": "geosite-ai", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "🎯 全球直连"},
