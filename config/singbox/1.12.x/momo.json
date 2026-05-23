@@ -8,7 +8,6 @@
     "rules": [
       {"clash_mode": "direct","server": "local"},
       {"clash_mode": "global","server": "foreign"},
-      {"query_type": ["HTTPS","SVCB"],"action": "reject"},
       {"rule_set": ["geosite-cn", "geosite-steamcn", "geosite-apple"], "server": "local"}
     ],
     "final": "foreign",
