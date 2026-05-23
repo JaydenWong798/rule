@@ -1,50 +1,19 @@
 {
   "dns": {
-  "servers": [
-    {
-      "tag": "local",
-      "type": "https",
-      "server": "223.5.5.5",
-      "detour": "direct"
-    },
-    {
-      "tag": "foreign",
-      "type": "https",
-      "server": "dns.google",
-      "domain_resolver": "local",
-      "detour": "🚀 默认代理"
-    }
-  ],
-
-  "rules": [
-    {
-      "clash_mode": "direct",
-      "server": "local"
-    },
-    {
-      "clash_mode": "global",
-      "server": "foreign"
-    },
-    {
-      "query_type": [
-        "HTTPS",
-        "SVCB"
-      ],
-      "action": "reject"
-    },
-    {
-      "rule_set": [
-        "geosite-cn",
-        "geosite-steamcn",
-        "geosite-apple-cn"
-      ],
-      "server": "local"
-    }
-  ],
-
-   "final": "foreign",
-   "strategy": "ipv4_only",
-   "independent_cache": true
+    "servers": [
+      {"tag": "local", "type": "udp", "server": "223.5.5.5"},
+      {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
+      {"tag": "foreign","type": "https","server": "dns.google","domain_resolver": "local","detour": "🚀 默认代理"}
+    ],
+    "rules": [
+      {"clash_mode": "direct","server": "local"},
+      {"clash_mode": "global","server": "foreign"},
+      {"query_type": ["HTTPS","SVCB"],"action": "reject"},
+      {"rule_set": ["geosite-cn","geosite-steamcn","geosite-apple-cn"],"server": "local"}
+    ],
+    "final": "foreign",
+    "strategy": "ipv4_only",
+    "independent_cache": true
   },
   "outbounds": [
     {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇯🇵东京⭐𝙱𝙶𝙿", "🇭🇰香港🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇺🇸洛杉矶⭐𝙸𝚂𝙿", "🐸 手动选择", "♻️ 自动选择"]}, 
