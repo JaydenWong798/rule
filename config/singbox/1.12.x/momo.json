@@ -83,6 +83,11 @@
           "192.168.1.201/32"
         ],
         "outbound": "🎯 全球直连"
+      },
+	  {
+        "process_name": ["qbittorrentno-nox", "qbittorrent", "qbittorrent-nox"],
+        "action": "hijack",
+        "next": "direct"
       },	
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
       {"rule_set": "geosite-youtube", "outbound": "📹 YouTube"},
