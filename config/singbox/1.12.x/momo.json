@@ -193,8 +193,8 @@
     }
   },
   "log": {
-    "disabled": true,
-    "level": "warning",
+    "disabled": false,
+    "level": "info",
     "timestamp": true
   }
 }
