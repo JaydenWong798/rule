@@ -78,7 +78,8 @@
           "docker.com",
           "ghcr.io",
           "google.com",
-          "gstatic.com"
+          "gstatic.com",
+		  "libtorrent.org"
         ],
         "outbound": "🚀 默认代理"
       },
