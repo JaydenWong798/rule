@@ -46,7 +46,6 @@
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
 	  {"protocol": "bittorrent","outbound": "🎯 全球直连"},
 	  {"port": 51413,"outbound": "🎯 全球直连"},
-      {"source_port": 51413,"outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"domain_suffix": ["jayden.cool","plex.tv","hdvideo.top"],"outbound": "🎯 全球直连"},
