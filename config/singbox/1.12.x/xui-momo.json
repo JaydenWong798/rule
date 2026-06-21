@@ -251,7 +251,6 @@
       }
     },
 
-    "network": "xhttp",
 
     "xhttp": {
       "path": "/",
