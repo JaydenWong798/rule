@@ -251,8 +251,9 @@
       }
     },
 
-    "transport": {
-      "type": "xhttp",
+    "network": "xhttp",
+
+    "xhttp": {
       "path": "/",
       "mode": "auto"
     }
