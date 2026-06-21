@@ -227,36 +227,28 @@
       "type": "direct"
     },
     {
-     "type": "vless",
-     "tag": "🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸",
-     "server": "xui.jayden.cool",
-     "server_port": 443,
-     "uuid": "8f435f73-d371-4534-ae06-05d6f2f22999",
-
-     "packet_encoding": "xudp",
-
-     "tls": {
-       "enabled": true,
-       "server_name": "www.microsoft.com",
-
-       "reality": {
-         "enabled": true,
-         "public_key": "s8Hr4XeMh7v3UUc80CcjSKrjIniSjw81XTOaoe_bb04",
-         "short_id": "5936131c"
-       },
-
-      "utls": {
+      "tag": "🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸-Momo",
+      "type": "vless",
+      "server": "xui.jayden.cool",
+      "server_port": 443,
+      "uuid": "ccbc78c9-6161-4cdb-bca8-33cd0187a86a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
         "enabled": true,
-        "fingerprint": "chrome"
+        "insecure": false,
+        "server_name": "www.microsoft.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "JIHtoghuGCZkGua89A_uL0nZD8BvsNU8fUgKSZxpMF4",
+          "short_id": "4c13d38fdf"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
-    },
-
-
-    "xhttp": {
-      "path": "/",
-      "mode": "auto"
     }
-   }
     
   ],
   "route": {
