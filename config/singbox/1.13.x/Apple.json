@@ -34,7 +34,7 @@
     {"tag": "漏网之鱼", "type": "selector", "outbounds": ["默认代理", "🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇯🇵东京🔥CN2🔥9929🔥CMIN2", "手动选择", "自动选择", "直连"]},
     {"tag": "🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸"]}, {"action": "exclude", "keywords": ["免费"]}]},
     {"tag": "🇯🇵东京🔥CN2🔥9929🔥CMIN2", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["东京🔥𝘊𝘕2🔥9929🔥𝘊𝘔𝘐𝘕2"]}, {"action": "exclude", "keywords": ["免费"]}]},
-    {"tag": "手动选择", "type": "selector", "outbounds": []},
+    {"tag": "手动选择", "type": "selector", "outbounds": ["{all}"]},
     {"tag": "自动选择", "type": "urltest", "outbounds": [], "url": "https://clients1.google.com/generate_204", "interval": "30m", "tolerance": 100},
     {"tag": "延迟辅助", "type": "urltest", "outbounds": ["直连"], "url": "http://connect.rom.miui.com/generate_204", "interval": "30m"},
     {"tag": "GLOBAL", "type": "selector", "outbounds": ["默认代理", "AI", "YouTube", "Google", "Github", "Telegram", "TikTok", "Netflix", "PayPal", "Steam", "Microsoft", "OneDrive", "Apple", "漏网之鱼", "🇯🇵东京🔥𝙲𝙽𝟸🔥𝟿𝟿𝟸𝟿🔥𝙲𝙼𝙸𝙽𝟸", "🇯🇵东京🔥CN2🔥9929🔥CMIN2", "手动选择", "自动选择", "延迟辅助", "直连"]},
