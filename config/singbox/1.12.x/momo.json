@@ -2,7 +2,6 @@
   "dns": {
     "servers": [
       {"tag": "local", "type": "udp", "server": "202.96.128.86"},
-      {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
       {"tag": "foreign","type": "https","server": "8.8.8.8","detour": "🚀 默认代理"}
     ],
     "rules": [
